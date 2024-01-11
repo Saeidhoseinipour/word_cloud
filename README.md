@@ -2,7 +2,7 @@
 [![DOI](https://zenodo.org/badge/21369/amueller/word_cloud.svg)](https://zenodo.org/badge/latestdoi/21369/amueller/word_cloud)
 
 
-word_cloud
+# **Word Cloud**
 ==========
 
 A little word cloud generator in Python. Read more about it on the [blog
@@ -10,7 +10,7 @@ post][blog-post] or the [website][website].
 
 The code is tested against Python 3.7, 3.8, 3.9, 3.10, 3.11, 3.12.
 
-## Installation
+## **Installation**
 
 If you are using pip:
 
@@ -21,7 +21,7 @@ If you are using conda, you can install from the `conda-forge` channel:
     conda install -c conda-forge wordcloud
 
 
-#### Installation notes
+#### **Installation notes**
 
 wordcloud depends on `numpy`, `pillow`, and `matplotlib`.
 
@@ -30,7 +30,7 @@ package requires having a C compiler set up. Before installing a compiler, repor
 an issue describing the version of python and operating system being used.
 
 
-## Examples
+## **Examples**
 
 Check out [examples/simple.py][simple] for a short intro. A sample output is:
 
@@ -48,7 +48,7 @@ Generating wordclouds for Arabic:
 ![Arabic wordlcloud](examples/arabic_example.png)
 
 
-## Command-line usage
+## **Command-line usage**
 
 The `wordcloud_cli` tool can be used to generate word clouds directly from the command-line:
 
@@ -76,6 +76,6 @@ Use `wordcloud_cli --help` so see all available options.
 [intprob]: http://peekaboo-vision.blogspot.de/2012/11/a-wordcloud-in-python.html#bc_0_28B
 
 
-## Licensing
+## **Licensing**
 The wordcloud library is MIT licenced, but contains DroidSansMono.ttf, a true type font by Google, that is apache licensed.
 The font is by no means integral, and any other font can be used by setting the ``font_path`` variable when creating a ``WordCloud`` object.
